@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Portfolio Suite" verbose="1">
+
+    <test name="UI Tests - Sauce Demo">
+        <classes>
+            <class name="com.victormtz.tests.ui.LoginTest"/>
+            <class name="com.victormtz.tests.ui.InventoryTest"/>
+            <class name="com.victormtz.tests.ui.CartTest"/>
+            <class name="com.victormtz.tests.ui.CheckoutTest"/>
+        </classes>
+    </test>
+
+    <test name="API Tests - PetStore">
+        <classes>
+            <class name="com.victormtz.tests.api.PetTest"/>
+            <class name="com.victormtz.tests.api.OrderTest"/>
+            <class name="com.victormtz.tests.api.UserTest"/>
+        </classes>
+    </test>
+
+</suite>
